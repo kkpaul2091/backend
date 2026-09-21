@@ -164,7 +164,7 @@ jobs:
           path: ${{ inputs.service-dir }}/target/dependency-check-report.html
           retention-days: 14
 
-      # ── AWS & ECR ──────────────────────────────────────────────────────────────
+      # ── AWS & ECR ──────────────────────────────────────────────────────────────      
       - name: "🔑 Configure AWS credentials (OIDC)"
         uses: aws-actions/configure-aws-credentials@v5
         with:

@@ -24,7 +24,7 @@ permissions:
   actions: read
 
 env:
-  AWS_REGION: us-east-1
+  AWS_REGION: ap-southeast-2
   ECR_REPOSITORY: inventory-service
   GITOPS_REPO: ${{ vars.GITOPS_REPO }}
 
